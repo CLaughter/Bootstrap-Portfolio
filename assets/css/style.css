@@ -29,6 +29,10 @@ a:hover {
   color: cyan;
 }
 
+h4 {
+  color: rgb(0, 89, 255);
+}
+
 #nav {
   padding: 25px;
   display: inline;
@@ -79,8 +83,6 @@ a:hover {
 
 #full {
   box-sizing: border-box;
-  clear: both;
-  overflow: auto;
   background-color: #ffffff;
   /* margin: 70px;
   padding: 50px; */
@@ -100,6 +102,8 @@ a:hover {
 }
 
 .footer {
+  clear: both;
+  overflow: auto;
   background-color: #666666;
   color: white;
   font-size: large;
@@ -110,15 +114,6 @@ a:hover {
   width: 100%;
   bottom: 0;
  }
-
- /* .container {
-  width: 960px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  font-size: 18px;
-  text-align: left;
- } */
 
  #form {
   text-align: left;
@@ -143,6 +138,7 @@ footer {
   text-align: center;
   padding: 0;
   margin: 0;
+  position: static;
 }
 
 
